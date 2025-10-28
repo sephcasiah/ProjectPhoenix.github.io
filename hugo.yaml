@@ -65,6 +65,9 @@ markup:
     # guessSyntax: true
 
 # Everything below this are Site Params
+caches:
+  images:
+    dir: :cacheDir/images
 
 # Comment out if you don't want the "print entire section" link enabled.
 outputs:
