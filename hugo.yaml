@@ -1,5 +1,5 @@
 baseURL: https://example.docsy.dev
-title: Goldydocs
+title: Phoenix
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
@@ -39,35 +39,17 @@ permalinks:
 # Image processing configuration.
 imaging:
   resampleFilter: CatmullRom
-  quality: 75
+  quality: 90
   anchor: smart
 
 # Language configuration
 languages:
   en:
     languageName: English
-    title: Goldydocs
+    title: Phoenix
     params:
-      description: A Docsy example site
-  # cSpell:disable
-  'no':
-    languageName: Norsk
-    contentDir: content/no
-    title: Gulldoks
-    params:
-      description: Docsy er operativsystem for skyen
-      time_format_default: 02.01.2006
-      time_format_blog: 02.01.2006
-  fa:
-    languageDirection: rtl
-    languageName: "فارسی (Persian)"
-    contentDir: content/fa
-    title: "اسناد گلدی"
-    params:
-      description: "یک نمونه برای پوسته داکسی"
-      time_format_default: 2006.01.02
-      time_format_blog: 2006.01.02
-  # cSpell:enable
+      description: A Dust514 Revival!
+  # cSpell:disable\
 
 markup:
   goldmark:
@@ -145,8 +127,8 @@ params:
   prism_syntax_highlighting: false
 
   copyright:
-    authors: Docsy Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
-    from_year: 2018
+    authors: DUST 514 CCP hf. All rights reserved. “DUST 514”, “EVE”, and the “CCP” logo are registered trademarks or trademarks of CCP hf. All other trademarks are the property of their respective owners. Phoenix is an independent preservation project and is not affiliated with or endorsed by CCP hf.
+    from_year: 2009
 
   # User interface configuration
   ui:
@@ -159,7 +141,7 @@ params:
     # Enable to show the side bar menu in its compact state.
     sidebar_menu_compact: false
     # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
-    sidebar_search_disable: false
+    sidebar_search_disable: true
 
     # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
     # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
@@ -186,10 +168,10 @@ params:
         url: https://example.org/mail
         icon: fa fa-envelope
         desc: Discussion and help from your fellow users
-      - name: Twitter
+      - name: X
         url: https://example.org/twitter
         icon: fab fa-twitter
-        desc: Follow us on Twitter to get the latest news!
+        desc: Follow us on X to get the latest news!
       - name: Stack Overflow
         url: https://example.org/stack
         icon: fab fa-stack-overflow

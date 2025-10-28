@@ -1,20 +1,20 @@
 ---
-title: Goldydocs
+title: Phoenix
 ---
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-  Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+{{< blocks/cover title="Project Phoenix: A Revival of Dust514!" image_anchor="top" height="full" >}}
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://discord.gg/CqHQDmEFTr">
+  Join Our Discord! <i class="fas fa-brands fa-discord ms-2"></i>
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
-  Download <i class="fab fa-github ms-2 "></i>
+<a class="btn btn-lg btn-primary me-3 mb-4" href="https://drive.google.com/drive/folders/1Wd2Crh4PSiv2vuRglVnRK1ecJasJ6MPk">
+  Download <i class="fab fa-google-drive ms-2 "></i>
 </a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
+<p class="lead mt-5">We’re here to preserve, restore, and rebuild Dust 514 &mdash; piece by piece, script by script, packet by packet.</p>
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
 
-{{% blocks/lead color="primary" %}}
+{{% blocks/lead color="black" %}}
 Goldydocs provides a single web UI providing visibility into porridge
 temperature, chair size, and bed softness metrics! You can even find out who's
 been eating **your** porridge.
@@ -37,7 +37,7 @@ We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributi
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
+{{% blocks/feature icon="fab fa-x-twitter" title="Follow us on X!" url="https://twitter.com/docsydocs" %}}
 For announcement of latest features etc.
 {{% /blocks/feature %}}
 
@@ -45,7 +45,7 @@ For announcement of latest features etc.
 {{% /blocks/section %}}
 
 
-{{% blocks/section %}}
+{{% blocks/section color="red" %}}
 This is the second section
 {.h1 .text-center}
 {{% /blocks/section %}}

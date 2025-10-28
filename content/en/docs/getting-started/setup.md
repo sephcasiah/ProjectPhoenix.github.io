@@ -1,22 +1,31 @@
 ---
-title: Example Page
-date: 2017-01-05
+title: Setup
+date: 2025-10-25
 description: >
-  A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
-categories: [Examples]
+  A Guide on how to install the game to run in a PS3 Emulator.
+categories: [Tutorial, Setup]
 tags: [test, sample, docs]
 ---
 
 {{% pageinfo %}}
-This is a placeholder page. Replace it with your own content.
+Play-Tester Setup
 {{% /pageinfo %}}
+## Playtest Setup Instructions
 
+Follow these steps to get ready to playtest:
+- Download the [Game Build](https://drive.google.com/drive/folders/1Wd2Crh4PSiv2vuRglVnRK1ecJasJ6MPk)
+- [Download RPCS3](https://rpcs3.net/download)
+- Download the Game Config file (You must first right click the game in RPCS3 and select Custom Config first BEFORE adding the file we provide or it WILL be overwritten!)
+- Run the game
+  - Right click the game in RPCS3 and select 'Boot with custom config'
 
-Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).
+{{< alert color="warning" >}} first tests will require using new characters. The ability to use previously saved Dust514 characters will be added later. {{< /alert >}}
 
-There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.
+-------------------------------------------------------
 
-90's four loko seitan photo booth gochujang freegan tumeric listicle fam ugh humblebrag. Bespoke leggings gastropub, biodiesel brunch pug fashion axe meh swag art party neutra deep v chia. Enamel pin fanny pack knausgaard tofu, artisan cronut hammock meditation occupy master cleanse chartreuse lumbersexual. Kombucha kogi viral truffaut synth distillery single-origin coffee ugh slow-carb marfa selfies. Pitchfork schlitz semiotics fanny pack, ugh artisan vegan vaporware hexagon. Polaroid fixie post-ironic venmo wolf ramps **kale chips**.
+Explore, try things, break things — we want that
+
+If you find bugs, use the testing channel or form to report them
 
 > There should be no margin above this first sentence.
 >
