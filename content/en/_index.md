@@ -15,12 +15,7 @@ title: Phoenix
 
 
 {{% blocks/lead color="black" %}}
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
-
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
+Project Phoenix is a community-driven initiative to preserve, restore and rebuild Dust514 on PC UDK from the original PS3 files. We are working on a custom Dust514 server core called <a href="https://github.com/sephcasiah/Abyss03Framework.github.io/index.html">Abyss03</a> [preview].
 {{% /blocks/lead %}}
 
 
