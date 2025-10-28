@@ -80,7 +80,7 @@ jobs:
             hugo-
       - name: Build the site
         run: |
-          hugo \
+          npm run _hugo-dev \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
