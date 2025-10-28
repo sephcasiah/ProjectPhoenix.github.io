@@ -66,6 +66,7 @@ jobs:
       - name: Install Node.js dependencies
         run: |
           [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
+          sudo npm install -g postcss
           sudo npm install -g postcss-cli
           sudo npm install -g npx --force
       - name: Configure Git
