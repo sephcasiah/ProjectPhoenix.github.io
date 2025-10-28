@@ -66,7 +66,8 @@ jobs:
       - name: Install Node.js dependencies
         run: |
           [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
-          npm install -g postcss-cli autoprefixer
+          npm install -g postcss-cli
+          npm install -g autoprefixer
       - name: Configure Git
         run: |
           git config core.quotepath false
@@ -80,7 +81,7 @@ jobs:
             hugo-
       - name: Build the site
         run: |
-          npm run _hugo-dev \
+          hugo \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
